@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65434B9615212BAC00F5FAFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65434B9515212BAC00F5FAFE /* UIKit.framework */; };
+		65434B9815212BAC00F5FAFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65434B9715212BAC00F5FAFE /* Foundation.framework */; };
+		65434B9A15212BAC00F5FAFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65434B9915212BAC00F5FAFE /* CoreGraphics.framework */; };
+		65434BA015212BAC00F5FAFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65434B9E15212BAC00F5FAFE /* InfoPlist.strings */; };
+		65434BA215212BAC00F5FAFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BA115212BAC00F5FAFE /* main.m */; };
+		65434BA615212BAC00F5FAFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BA515212BAC00F5FAFE /* AppDelegate.m */; };
+		65434BA915212BAC00F5FAFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BA815212BAC00F5FAFE /* ViewController.m */; };
+		65434BAC15212BAC00F5FAFE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65434BAA15212BAC00F5FAFE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65434B9115212BAC00F5FAFE /* DiceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65434B9515212BAC00F5FAFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65434B9715212BAC00F5FAFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65434B9915212BAC00F5FAFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65434B9D15212BAC00F5FAFE /* DiceChecker-Info.plist */ = {isa = PBXFileReference; path = "DiceChecker-Info.plist"; sourceTree = "<group>"; };
+		65434B9F15212BAC00F5FAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65434BA115212BAC00F5FAFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65434BA315212BAC00F5FAFE /* DiceChecker-Prefix.pch */ = {isa = PBXFileReference; path = "DiceChecker-Prefix.pch"; sourceTree = "<group>"; };
+		65434BA415212BAC00F5FAFE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		65434BA515212BAC00F5FAFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65434BA715212BAC00F5FAFE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		65434BA815212BAC00F5FAFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65434BAB15212BAC00F5FAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65434B8E15212BAC00F5FAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65434B9615212BAC00F5FAFE /* UIKit.framework in Frameworks */,
+				65434B9815212BAC00F5FAFE /* Foundation.framework in Frameworks */,
+				65434B9A15212BAC00F5FAFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65434B8615212BAC00F5FAFE = {
+			isa = PBXGroup;
+			children = (
+				65434B9B15212BAC00F5FAFE /* DiceChecker */,
+				65434B9415212BAC00F5FAFE /* Frameworks */,
+				65434B9215212BAC00F5FAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65434B9215212BAC00F5FAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65434B9115212BAC00F5FAFE /* DiceChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65434B9415212BAC00F5FAFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65434B9515212BAC00F5FAFE /* UIKit.framework */,
+				65434B9715212BAC00F5FAFE /* Foundation.framework */,
+				65434B9915212BAC00F5FAFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65434B9B15212BAC00F5FAFE /* DiceChecker */ = {
+			isa = PBXGroup;
+			children = (
+				65434BA415212BAC00F5FAFE /* AppDelegate.h */,
+				65434BA515212BAC00F5FAFE /* AppDelegate.m */,
+				65434BA715212BAC00F5FAFE /* ViewController.h */,
+				65434BA815212BAC00F5FAFE /* ViewController.m */,
+				65434BAA15212BAC00F5FAFE /* ViewController.xib */,
+				65434B9C15212BAC00F5FAFE /* Supporting Files */,
+			);
+			path = DiceChecker;
+			sourceTree = "<group>";
+		};
+		65434B9C15212BAC00F5FAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65434B9D15212BAC00F5FAFE /* DiceChecker-Info.plist */,
+				65434B9E15212BAC00F5FAFE /* InfoPlist.strings */,
+				65434BA115212BAC00F5FAFE /* main.m */,
+				65434BA315212BAC00F5FAFE /* DiceChecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65434B9015212BAC00F5FAFE /* DiceChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65434BAF15212BAC00F5FAFE /* Build configuration list for PBXNativeTarget "DiceChecker" */;
+			buildPhases = (
+				65434B8D15212BAC00F5FAFE /* Sources */,
+				65434B8E15212BAC00F5FAFE /* Frameworks */,
+				65434B8F15212BAC00F5FAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceChecker;
+			productName = DiceChecker;
+			productReference = 65434B9115212BAC00F5FAFE /* DiceChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65434B8815212BAC00F5FAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 65434B8B15212BAC00F5FAFE /* Build configuration list for PBXProject "DiceChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65434B8615212BAC00F5FAFE;
+			productRefGroup = 65434B9215212BAC00F5FAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65434B9015212BAC00F5FAFE /* DiceChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65434B8F15212BAC00F5FAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65434BA015212BAC00F5FAFE /* InfoPlist.strings in Resources */,
+				65434BAC15212BAC00F5FAFE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65434B8D15212BAC00F5FAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65434BA215212BAC00F5FAFE /* main.m in Sources */,
+				65434BA615212BAC00F5FAFE /* AppDelegate.m in Sources */,
+				65434BA915212BAC00F5FAFE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65434B9E15212BAC00F5FAFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65434B9F15212BAC00F5FAFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65434BAA15212BAC00F5FAFE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65434BAB15212BAC00F5FAFE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65434BAD15212BAC00F5FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65434BAE15212BAC00F5FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65434BB015212BAC00F5FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceChecker/DiceChecker-Prefix.pch";
+				INFOPLIST_FILE = "DiceChecker/DiceChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65434BB115212BAC00F5FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceChecker/DiceChecker-Prefix.pch";
+				INFOPLIST_FILE = "DiceChecker/DiceChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65434B8B15212BAC00F5FAFE /* Build configuration list for PBXProject "DiceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65434BAD15212BAC00F5FAFE /* Debug */,
+				65434BAE15212BAC00F5FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65434BAF15212BAC00F5FAFE /* Build configuration list for PBXNativeTarget "DiceChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65434BB015212BAC00F5FAFE /* Debug */,
+				65434BB115212BAC00F5FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65434B8815212BAC00F5FAFE /* Project object */;
+}
