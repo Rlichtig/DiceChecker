@@ -16,6 +16,9 @@
 		65434BA915212BAC00F5FAFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BA815212BAC00F5FAFE /* ViewController.m */; };
 		65434BAC15212BAC00F5FAFE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65434BAA15212BAC00F5FAFE /* ViewController.xib */; };
 		65434BB3152132AC00F5FAFE /* distro.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65434BB2152132AC00F5FAFE /* distro.txt */; };
+		65434BB515217C7D00F5FAFE /* dicechecker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65434BB415217C7D00F5FAFE /* dicechecker.txt */; };
+		65434BB915217DCB00F5FAFE /* DiceCheckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */; };
+		65434BBA15217DCB00F5FAFE /* DiceCheckerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		65434BA815212BAC00F5FAFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65434BAB15212BAC00F5FAFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		65434BB2152132AC00F5FAFE /* distro.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = distro.txt; sourceTree = "<group>"; };
+		65434BB415217C7D00F5FAFE /* dicechecker.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dicechecker.txt; sourceTree = "<group>"; };
+		65434BB615217DCB00F5FAFE /* DiceCheckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceCheckerViewController.h; sourceTree = "<group>"; };
+		65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceCheckerViewController.m; sourceTree = "<group>"; };
+		65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceCheckerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,10 @@
 				65434BA715212BAC00F5FAFE /* ViewController.h */,
 				65434BA815212BAC00F5FAFE /* ViewController.m */,
 				65434BB2152132AC00F5FAFE /* distro.txt */,
+				65434BB415217C7D00F5FAFE /* dicechecker.txt */,
+				65434BB615217DCB00F5FAFE /* DiceCheckerViewController.h */,
+				65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */,
+				65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */,
 				65434BAA15212BAC00F5FAFE /* ViewController.xib */,
 				65434B9C15212BAC00F5FAFE /* Supporting Files */,
 			);
@@ -154,6 +165,8 @@
 				65434BA015212BAC00F5FAFE /* InfoPlist.strings in Resources */,
 				65434BAC15212BAC00F5FAFE /* ViewController.xib in Resources */,
 				65434BB3152132AC00F5FAFE /* distro.txt in Resources */,
+				65434BB515217C7D00F5FAFE /* dicechecker.txt in Resources */,
+				65434BBA15217DCB00F5FAFE /* DiceCheckerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 				65434BA215212BAC00F5FAFE /* main.m in Sources */,
 				65434BA615212BAC00F5FAFE /* AppDelegate.m in Sources */,
 				65434BA915212BAC00F5FAFE /* ViewController.m in Sources */,
+				65434BB915217DCB00F5FAFE /* DiceCheckerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,90 @@
+Checklist of stuff we need to do
+
+
+- Check variance between your die and what it should be
+- display
+
+
+
+- Main Menu Display
+	- Two buttons 
+		- Dice checker
+		- Dice
+		
+- Dice Checker Menu
+	- Music App esque
+	- Add new profile button
+	- Edit button
+	- Back button
+
+
+
+Dice checker part
+- Select profile or start new one
+	- title, number of dice, sides
+- Buttons to enter in numbers 1-??
+	- Seperate for each die
+	- Format:
+			(back button) Profile Name
+			Goodness scale for die
+				- Top and bottom parts
+					- Top: Fairness
+					- Bottom: Sureness
+				- Color scale combining both top and bottom from red -> green
+			Graph
+				- Begin with info with combined die data, then splits to individual
+				- After pressing commit, the graph updates.
+				- Red line showing proper bell curve
+				- Background color is the goodness scale color
+			Buttons
+				- 1 or 2, n <= 10 sided die
+					- Special dice looking interface
+					- Enter 1 die at a time
+				- Other
+					- Calculator/keypad looking interface
+					- Enter total from dice
+			Commit
+
+
+Dice
+- Same selection for profile - the name.
+	????? - Visualization of top die is relative to number of sides on die
+	- Number of die, and sides
+	- Add ability to roll multiple die of different size (6 sided and 10 sided)
+	- Rolling
+		- Shake
+		- Button on bottom
+		
+-------------------------------------------------------------------------
+
+Dice Checker View (DCV)
+- Frequency array (frequency of each type of roll) 
+- Rolls int (total number of rolls)
+- Graph view
+- FC Scale 
+
+Graph View (GV)
+- Pointer to frequency array 
+- Pointer to Rolls int
+
+DCV
+1. User inputs data into User Input View (UIV), hits enter 
+2. UIV calculates total of dice 
+3. DCV gets total from UIV
+4. DCV increments Rolls 
+5. DCV updates Frequency array based on new total 
+6. DCV sends new total to the GV
+	6a. GV checks if a new scale is required 
+	6b. If new scale isn't required, update graph, go to step 7
+	6c. If new scale is required, make new scale, update graph 
+7. DCV sends new total to the FC Scale 
+	7a. Update fairness
+		- Requires:
+			- pre-calculated theoretical probabilities 
+			- frequencies 
+		- Compares theoretical probabilities with experimental results 
+	7b. Update certainty 
+		- Requires:
+			- Number of rolls 
+			- Types of die 
+	7c. Update background color 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DiceCheckerViewController.h
 //  DiceChecker
 //
 //  Created by  on 3/26/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
-	
-}
+@interface DiceCheckerViewController : UIViewController
 
 @end
