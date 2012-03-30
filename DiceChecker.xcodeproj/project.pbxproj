@@ -19,6 +19,14 @@
 		65434BB515217C7D00F5FAFE /* dicechecker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65434BB415217C7D00F5FAFE /* dicechecker.txt */; };
 		65434BB915217DCB00F5FAFE /* DiceCheckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */; };
 		65434BBA15217DCB00F5FAFE /* DiceCheckerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */; };
+		862177BC152446BF00240A6A /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B4152446BF00240A6A /* background@2x.png */; };
+		862177BD152446BF00240A6A /* Die1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B5152446BF00240A6A /* Die1@2x.png */; };
+		862177BE152446BF00240A6A /* Die2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B6152446BF00240A6A /* Die2@2x.png */; };
+		862177BF152446BF00240A6A /* Die3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B7152446BF00240A6A /* Die3@2x.png */; };
+		862177C0152446BF00240A6A /* Die4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B8152446BF00240A6A /* Die4@2x.png */; };
+		862177C1152446BF00240A6A /* Die5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177B9152446BF00240A6A /* Die5@2x.png */; };
+		862177C2152446BF00240A6A /* Die6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177BA152446BF00240A6A /* Die6@2x.png */; };
+		862177C3152446BF00240A6A /* mainMenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 862177BB152446BF00240A6A /* mainMenuBackground@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +48,14 @@
 		65434BB615217DCB00F5FAFE /* DiceCheckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceCheckerViewController.h; sourceTree = "<group>"; };
 		65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceCheckerViewController.m; sourceTree = "<group>"; };
 		65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiceCheckerViewController.xib; sourceTree = "<group>"; };
+		862177B4152446BF00240A6A /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		862177B5152446BF00240A6A /* Die1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die1@2x.png"; sourceTree = "<group>"; };
+		862177B6152446BF00240A6A /* Die2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die2@2x.png"; sourceTree = "<group>"; };
+		862177B7152446BF00240A6A /* Die3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die3@2x.png"; sourceTree = "<group>"; };
+		862177B8152446BF00240A6A /* Die4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die4@2x.png"; sourceTree = "<group>"; };
+		862177B9152446BF00240A6A /* Die5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die5@2x.png"; sourceTree = "<group>"; };
+		862177BA152446BF00240A6A /* Die6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Die6@2x.png"; sourceTree = "<group>"; };
+		862177BB152446BF00240A6A /* mainMenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainMenuBackground@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,7 @@
 				65434BB715217DCB00F5FAFE /* DiceCheckerViewController.m */,
 				65434BB815217DCB00F5FAFE /* DiceCheckerViewController.xib */,
 				65434BAA15212BAC00F5FAFE /* ViewController.xib */,
+				8629B1071523D684007BA40D /* Pictures */,
 				65434B9C15212BAC00F5FAFE /* Supporting Files */,
 			);
 			path = DiceChecker;
@@ -110,6 +127,21 @@
 				65434BA315212BAC00F5FAFE /* DiceChecker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8629B1071523D684007BA40D /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				862177B4152446BF00240A6A /* background@2x.png */,
+				862177B5152446BF00240A6A /* Die1@2x.png */,
+				862177B6152446BF00240A6A /* Die2@2x.png */,
+				862177B7152446BF00240A6A /* Die3@2x.png */,
+				862177B8152446BF00240A6A /* Die4@2x.png */,
+				862177B9152446BF00240A6A /* Die5@2x.png */,
+				862177BA152446BF00240A6A /* Die6@2x.png */,
+				862177BB152446BF00240A6A /* mainMenuBackground@2x.png */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +170,7 @@
 		65434B8815212BAC00F5FAFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 65434B8B15212BAC00F5FAFE /* Build configuration list for PBXProject "DiceChecker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -167,6 +199,14 @@
 				65434BB3152132AC00F5FAFE /* distro.txt in Resources */,
 				65434BB515217C7D00F5FAFE /* dicechecker.txt in Resources */,
 				65434BBA15217DCB00F5FAFE /* DiceCheckerViewController.xib in Resources */,
+				862177BC152446BF00240A6A /* background@2x.png in Resources */,
+				862177BD152446BF00240A6A /* Die1@2x.png in Resources */,
+				862177BE152446BF00240A6A /* Die2@2x.png in Resources */,
+				862177BF152446BF00240A6A /* Die3@2x.png in Resources */,
+				862177C0152446BF00240A6A /* Die4@2x.png in Resources */,
+				862177C1152446BF00240A6A /* Die5@2x.png in Resources */,
+				862177C2152446BF00240A6A /* Die6@2x.png in Resources */,
+				862177C3152446BF00240A6A /* mainMenuBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +332,7 @@
 				65434BB115212BAC00F5FAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

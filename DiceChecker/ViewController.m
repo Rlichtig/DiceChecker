@@ -57,4 +57,14 @@
 	return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)diceCheckerButtonWasPressed:(id)sender {
+}
+
+- (IBAction)diceRollerButtonWasPressed:(id)sender {
+}
+- (IBAction)diceCheckerButtonWasTouched:(id)sender {
+}
+
+- (IBAction)diceRollerButtonWasPushed:(id)sender {
+}
 @end

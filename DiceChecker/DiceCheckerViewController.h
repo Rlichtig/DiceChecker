@@ -8,7 +8,40 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DiceCheckerViewController : UIViewController
+@interface DiceCheckerViewController : UIViewController{
+    
+    
+    
+    
+    
+    IBOutlet UIView *keypadView;
+    IBOutlet UILabel *totalLabel;
+}
+
+- (void)concatenateNumberWithTotal:(NSString *)number;
+- (void)updateWithNewRollValue:(int)number;
+
+
+- (IBAction)zeroButtonPressed:(id)sender;
+- (IBAction)oneButtonPressed:(id)sender;
+- (IBAction)twoButtonPressed:(id)sender;
+- (IBAction)threeButtonPressed:(id)sender;
+- (IBAction)fourButtonPressed:(id)sender;
+- (IBAction)fiveButtonPressed:(id)sender;
+- (IBAction)sixButtonPressed:(id)sender;
+- (IBAction)sevenButtonPressed:(id)sender;
+- (IBAction)eightButtonPressed:(id)sender;
+- (IBAction)nineButtonPressed:(id)sender;
+
+- (IBAction)clearButtonPressed:(id)sender;
+- (IBAction)confirmButtonPressed:(id)sender;
+
+
+
+
+
+
+
 
 
 

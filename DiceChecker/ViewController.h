@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController {
 	
+
+
+
 }
+
+- (IBAction)diceCheckerButtonWasTouched:(id)sender;
+- (IBAction)diceRollerButtonWasPushed:(id)sender;
 
 @end
